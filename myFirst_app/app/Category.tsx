@@ -1,11 +1,17 @@
 import { View, Text } from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
 
 const Category = () => {
+    const[count,setCount]=useState(0);
   return (
-    <View>
-      <Text>Category</Text>
-    </View>
+   <div className='container'>
+    <p>You clicked {count} times</p>
+
+    <button onClick={()=>setCount(count+1)}>
+        Click me!
+    </button>
+
+   </div>
   )
 }
 
