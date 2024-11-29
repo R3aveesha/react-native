@@ -16,21 +16,6 @@ const index = () => {
 
       <Link href={"/Category"}>Category</Link>
       <Link href={"/Product"}>Product</Link>
-      <Link href={"/123"}>Product123</Link>
-
-      <Link href={{
-        pathname:"/[productId]",
-        params:{
-          productId:"auk",
-          name:"raveesha",
-          city:"kalutara"
-        }
-      }}>click here</Link>
-
-      
-
-
-
     </View>
 
   )
