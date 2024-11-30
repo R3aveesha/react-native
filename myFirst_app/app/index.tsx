@@ -15,7 +15,7 @@ const index = () => {
       }}>Index</Text>
 
       <Link href={"/Category"}>Category</Link>
-      <Link href={"/Product"}>Product</Link>
+      
     </View>
 
   )

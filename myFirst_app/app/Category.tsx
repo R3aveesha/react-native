@@ -6,7 +6,7 @@ const Category = () => {
   return (
    <div className='container'>
     <p>You clicked {count} times</p>
-
+    
     <button onClick={()=>setCount(count+1)}>
         Click me!
     </button>
