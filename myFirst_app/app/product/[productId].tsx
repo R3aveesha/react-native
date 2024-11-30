@@ -9,10 +9,11 @@ const params =useLocalSearchParams()
 
   return (
     <View>
-      <Text>Single</Text>
+      <Text>Single product</Text>
       <Text>{params.productId}</Text>
       <Text>{params.name}</Text>
       <Text>{params.city}</Text>
+
     </View>
   )
 }
