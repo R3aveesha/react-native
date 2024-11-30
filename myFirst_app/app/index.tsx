@@ -17,10 +17,8 @@ const index = () => {
       <Link href={"/Category"}>Category</Link>
       <Link href={"/Products"}>Products</Link>
       <Link href={"../product/dww123"}>hello</Link>
-      <Link href={"../product/dwdccm234235"}>hello</Link>
-
-
-      
+      <Link href={"../product/dwdccm234235"}>hello2</Link>
+      <Link href={"../product/kvwwr930913e"}>world2</Link>
     </View>
 
   )
