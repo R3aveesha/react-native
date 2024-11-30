@@ -13,6 +13,7 @@ const params =useLocalSearchParams()
       <Text>{params.productId}</Text>
       <Text>{params.name}</Text>
       <Text>{params.city}</Text>
+      <Text>{params.Age}</Text>
 
     </View>
   )

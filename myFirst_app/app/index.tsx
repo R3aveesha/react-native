@@ -19,6 +19,15 @@ const index = () => {
       <Link href={"../product/dww123"}>hello</Link>
       <Link href={"../product/dwdccm234235"}>hello2</Link>
       <Link href={"../product/kvwwr930913e"}>world2</Link>
+      <Link href={{
+          pathname:"../product/[productId]",
+          params:{
+            name:"raveesha",
+            city:"kalutara",
+            Age:"21",
+          }
+
+      }}></Link>
     </View>
 
   )
